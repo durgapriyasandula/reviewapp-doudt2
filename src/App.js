@@ -33,13 +33,6 @@ const reviewsList = [
   },
 ]
 
-const App = () => (
-  <div className="app-container">
-    <div className="container">
-      <h1 className="heading">Reviews</h1>
-      <ReviewsCarousel reviewsList={reviewsList} />
-    </div>
-  </div>
-)
+const App = () => <ReviewsCarousel reviewsList={reviewsList} />
 
 export default App
