@@ -1,0 +1,26 @@
+/* Write your code here */
+.button-class {
+  cursor: poiner;
+  border: none;
+  outline: none;
+}
+.list-container {
+  list-style-type: none;
+}
+.component-sub-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.name {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+  color: aliceblue;
+}
+.companyName {
+  font-size: 15px;
+  color: darkblue;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
